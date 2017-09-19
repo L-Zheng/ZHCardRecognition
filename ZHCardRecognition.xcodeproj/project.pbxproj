@@ -16,6 +16,21 @@
 		0F06A3911F5D553700217F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F06A38F1F5D553700217F3E /* LaunchScreen.storyboard */; };
 		0F06A39C1F5D553700217F3E /* ZHCardRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06A39B1F5D553700217F3E /* ZHCardRecognitionTests.m */; };
 		0F06A3A71F5D553700217F3E /* ZHCardRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06A3A61F5D553700217F3E /* ZHCardRecognitionUITests.m */; };
+		0F06A3BA1F5D593B00217F3E /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 0F06A3B71F5D593B00217F3E /* zocr0.lib */; };
+		0F06A3BB1F5D593B00217F3E /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F06A3B91F5D593B00217F3E /* libexidcardios.a */; };
+		0F06A3BF1F5D5AC500217F3E /* ZHIDCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06A3BE1F5D5AC500217F3E /* ZHIDCardViewController.m */; };
+		0F06A3C21F5D5BA200217F3E /* idcard_first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F06A3C11F5D5BA200217F3E /* idcard_first@2x.png */; };
+		0F06A3C51F5D5DA800217F3E /* ZHIDCardRecogntionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06A3C41F5D5DA800217F3E /* ZHIDCardRecogntionVC.m */; };
+		0F06A3C81F5D5ED600217F3E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F06A3C71F5D5ED600217F3E /* AVFoundation.framework */; };
+		0F06A3CA1F5D5EE600217F3E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F06A3C91F5D5EE600217F3E /* AssetsLibrary.framework */; };
+		0F06A3CE1F5D60D000217F3E /* ZHCustomScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06A3CD1F5D60D000217F3E /* ZHCustomScanView.m */; };
+		0F06A3D01F5D632C00217F3E /* idcard_first_head_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F06A3CF1F5D632C00217F3E /* idcard_first_head_5.png */; };
+		0F6077FE1F5E3F5700D3DBF6 /* idcard_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6077FD1F5E3F5700D3DBF6 /* idcard_back.png */; };
+		0F6078021F5E42F300D3DBF6 /* ZHIDCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6078011F5E42F300D3DBF6 /* ZHIDCardInfo.m */; };
+		0F6078061F5E43E800D3DBF6 /* ZHRectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6078051F5E43E800D3DBF6 /* ZHRectManager.m */; };
+		0F6078091F5E449D00D3DBF6 /* UIImage+ZHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6078081F5E449D00D3DBF6 /* UIImage+ZHExtend.m */; };
+		0F60780C1F5E45A400D3DBF6 /* ZHIDCardInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F60780B1F5E45A400D3DBF6 /* ZHIDCardInfoVC.m */; };
+		0F6078501F5E551C00D3DBF6 /* Emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F60784F1F5E551C00D3DBF6 /* Emblem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,30 @@
 		0F06A3A21F5D553700217F3E /* ZHCardRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHCardRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F06A3A61F5D553700217F3E /* ZHCardRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHCardRecognitionUITests.m; sourceTree = "<group>"; };
 		0F06A3A81F5D553700217F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F06A3B51F5D593B00217F3E /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		0F06A3B71F5D593B00217F3E /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		0F06A3B81F5D593B00217F3E /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		0F06A3B91F5D593B00217F3E /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		0F06A3BD1F5D5AC500217F3E /* ZHIDCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHIDCardViewController.h; sourceTree = "<group>"; };
+		0F06A3BE1F5D5AC500217F3E /* ZHIDCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHIDCardViewController.m; sourceTree = "<group>"; };
+		0F06A3C11F5D5BA200217F3E /* idcard_first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idcard_first@2x.png"; sourceTree = "<group>"; };
+		0F06A3C31F5D5DA800217F3E /* ZHIDCardRecogntionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHIDCardRecogntionVC.h; sourceTree = "<group>"; };
+		0F06A3C41F5D5DA800217F3E /* ZHIDCardRecogntionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHIDCardRecogntionVC.m; sourceTree = "<group>"; };
+		0F06A3C71F5D5ED600217F3E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0F06A3C91F5D5EE600217F3E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0F06A3CC1F5D60D000217F3E /* ZHCustomScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCustomScanView.h; sourceTree = "<group>"; };
+		0F06A3CD1F5D60D000217F3E /* ZHCustomScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCustomScanView.m; sourceTree = "<group>"; };
+		0F06A3CF1F5D632C00217F3E /* idcard_first_head_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idcard_first_head_5.png; sourceTree = "<group>"; };
+		0F6077FD1F5E3F5700D3DBF6 /* idcard_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idcard_back.png; sourceTree = "<group>"; };
+		0F6078001F5E42F300D3DBF6 /* ZHIDCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHIDCardInfo.h; sourceTree = "<group>"; };
+		0F6078011F5E42F300D3DBF6 /* ZHIDCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHIDCardInfo.m; sourceTree = "<group>"; };
+		0F6078041F5E43E800D3DBF6 /* ZHRectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRectManager.h; sourceTree = "<group>"; };
+		0F6078051F5E43E800D3DBF6 /* ZHRectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRectManager.m; sourceTree = "<group>"; };
+		0F6078071F5E449D00D3DBF6 /* UIImage+ZHExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZHExtend.h"; sourceTree = "<group>"; };
+		0F6078081F5E449D00D3DBF6 /* UIImage+ZHExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZHExtend.m"; sourceTree = "<group>"; };
+		0F60780A1F5E45A400D3DBF6 /* ZHIDCardInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHIDCardInfoVC.h; sourceTree = "<group>"; };
+		0F60780B1F5E45A400D3DBF6 /* ZHIDCardInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHIDCardInfoVC.m; sourceTree = "<group>"; };
+		0F60784F1F5E551C00D3DBF6 /* Emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emblem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F06A3CA1F5D5EE600217F3E /* AssetsLibrary.framework in Frameworks */,
+				0F06A3C81F5D5ED600217F3E /* AVFoundation.framework in Frameworks */,
+				0F06A3BB1F5D593B00217F3E /* libexidcardios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +129,7 @@
 				0F06A39A1F5D553700217F3E /* ZHCardRecognitionTests */,
 				0F06A3A51F5D553700217F3E /* ZHCardRecognitionUITests */,
 				0F06A37C1F5D553700217F3E /* Products */,
+				0F06A3C61F5D5ED600217F3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +150,8 @@
 				0F06A3821F5D553700217F3E /* AppDelegate.m */,
 				0F06A3841F5D553700217F3E /* ViewController.h */,
 				0F06A3851F5D553700217F3E /* ViewController.m */,
+				0F06A3BC1F5D5A7000217F3E /* IDCard */,
+				0F06A3B41F5D593B00217F3E /* libexidcard */,
 				0F06A3871F5D553700217F3E /* Main.storyboard */,
 				0F06A38D1F5D553700217F3E /* Assets.xcassets */,
 				0F06A38F1F5D553700217F3E /* LaunchScreen.storyboard */,
@@ -141,6 +186,91 @@
 				0F06A3A81F5D553700217F3E /* Info.plist */,
 			);
 			path = ZHCardRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		0F06A3B41F5D593B00217F3E /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A3B51F5D593B00217F3E /* commondef.h */,
+				0F06A3B61F5D593B00217F3E /* dicts */,
+				0F06A3B81F5D593B00217F3E /* excards.h */,
+				0F06A3B91F5D593B00217F3E /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		0F06A3B61F5D593B00217F3E /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A3B71F5D593B00217F3E /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		0F06A3BC1F5D5A7000217F3E /* IDCard */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A3C01F5D5BA200217F3E /* Resource */,
+				0F06A3BD1F5D5AC500217F3E /* ZHIDCardViewController.h */,
+				0F06A3BE1F5D5AC500217F3E /* ZHIDCardViewController.m */,
+				0F06A3C31F5D5DA800217F3E /* ZHIDCardRecogntionVC.h */,
+				0F06A3C41F5D5DA800217F3E /* ZHIDCardRecogntionVC.m */,
+				0F60780A1F5E45A400D3DBF6 /* ZHIDCardInfoVC.h */,
+				0F60780B1F5E45A400D3DBF6 /* ZHIDCardInfoVC.m */,
+				0F6078031F5E43C300D3DBF6 /* Tool */,
+				0F6077FF1F5E42D600D3DBF6 /* Model */,
+				0F06A3CB1F5D609C00217F3E /* View */,
+			);
+			path = IDCard;
+			sourceTree = "<group>";
+		};
+		0F06A3C01F5D5BA200217F3E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A3CF1F5D632C00217F3E /* idcard_first_head_5.png */,
+				0F60784F1F5E551C00D3DBF6 /* Emblem.png */,
+				0F6077FD1F5E3F5700D3DBF6 /* idcard_back.png */,
+				0F06A3C11F5D5BA200217F3E /* idcard_first@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0F06A3C61F5D5ED600217F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A3C91F5D5EE600217F3E /* AssetsLibrary.framework */,
+				0F06A3C71F5D5ED600217F3E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F06A3CB1F5D609C00217F3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F06A3CC1F5D60D000217F3E /* ZHCustomScanView.h */,
+				0F06A3CD1F5D60D000217F3E /* ZHCustomScanView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F6077FF1F5E42D600D3DBF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F6078001F5E42F300D3DBF6 /* ZHIDCardInfo.h */,
+				0F6078011F5E42F300D3DBF6 /* ZHIDCardInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F6078031F5E43C300D3DBF6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0F6078041F5E43E800D3DBF6 /* ZHRectManager.h */,
+				0F6078051F5E43E800D3DBF6 /* ZHRectManager.m */,
+				0F6078071F5E449D00D3DBF6 /* UIImage+ZHExtend.h */,
+				0F6078081F5E449D00D3DBF6 /* UIImage+ZHExtend.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +382,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F06A3BA1F5D593B00217F3E /* zocr0.lib in Resources */,
+				0F06A3D01F5D632C00217F3E /* idcard_first_head_5.png in Resources */,
 				0F06A3911F5D553700217F3E /* LaunchScreen.storyboard in Resources */,
 				0F06A38E1F5D553700217F3E /* Assets.xcassets in Resources */,
+				0F6077FE1F5E3F5700D3DBF6 /* idcard_back.png in Resources */,
 				0F06A3891F5D553700217F3E /* Main.storyboard in Resources */,
+				0F06A3C21F5D5BA200217F3E /* idcard_first@2x.png in Resources */,
+				0F6078501F5E551C00D3DBF6 /* Emblem.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F06A3CE1F5D60D000217F3E /* ZHCustomScanView.m in Sources */,
+				0F6078061F5E43E800D3DBF6 /* ZHRectManager.m in Sources */,
 				0F06A3861F5D553700217F3E /* ViewController.m in Sources */,
+				0F6078091F5E449D00D3DBF6 /* UIImage+ZHExtend.m in Sources */,
 				0F06A3831F5D553700217F3E /* AppDelegate.m in Sources */,
+				0F60780C1F5E45A400D3DBF6 /* ZHIDCardInfoVC.m in Sources */,
 				0F06A3801F5D553700217F3E /* main.m in Sources */,
+				0F06A3BF1F5D5AC500217F3E /* ZHIDCardViewController.m in Sources */,
 				0F06A38C1F5D553700217F3E /* ZHCardRecognition.xcdatamodeld in Sources */,
+				0F6078021F5E42F300D3DBF6 /* ZHIDCardInfo.m in Sources */,
+				0F06A3C51F5D5DA800217F3E /* ZHIDCardRecogntionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +576,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 982YUZ7SFV;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZHCardRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZHCardRecognition/libexidcard",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.ZHCardRecognition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -446,8 +594,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 982YUZ7SFV;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZHCardRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZHCardRecognition/libexidcard",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "---.ZHCardRecognition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -522,6 +676,7 @@
 				0F06A3AD1F5D553700217F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F06A3AE1F5D553700217F3E /* Build configuration list for PBXNativeTarget "ZHCardRecognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +685,7 @@
 				0F06A3B01F5D553700217F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F06A3B11F5D553700217F3E /* Build configuration list for PBXNativeTarget "ZHCardRecognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +694,7 @@
 				0F06A3B31F5D553700217F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
